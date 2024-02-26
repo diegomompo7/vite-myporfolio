@@ -1,0 +1,53 @@
+.contact{
+    text-align: center;
+    margin-bottom: 2em;
+
+    &__title{
+        font-size: 2rem;
+        margin-top: 1.5625em;
+        font-family: "Tourney";
+        margin-bottom: 0.78125em;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+
+        &--button{
+            font-size: 2.25em;
+            font-family: "Righteous";
+            color: $first-color;
+            border: none;
+            border-radius: 0.222em;
+            margin-bottom: 0.69444em;
+            background-color: $third-color;
+            width: 8.333em;
+            height: 2.333em;
+            cursor: pointer;
+
+            &:hover{
+                transform: scale(1.3);
+            }
+        }
+
+        &--email{
+            margin: 0 auto;
+            background-color: $third-color;
+            width: 18.75em;
+            border-radius: 0.5em;
+
+            &--title{
+                font-size: 1.5rem;
+                font-family: "Righteous";
+                color: $first-color;
+                margin-top: 0.25em;
+                margin-bottom: 0.291666em;
+            }
+            &--subtitle{
+                font-size: 1rem;
+                font-family: "Righteous";
+                padding-bottom: 0.625em;
+                color: $first-color;
+            }
+        }
+    }
+}

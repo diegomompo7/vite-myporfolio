@@ -65,8 +65,8 @@
   font-size: 2rem;
   font-family: "Tourney";
   color: #FFFFFF;
-  padding-top: 38px;
-  margin-bottom: 41px;
+  padding-top: 1.1875em;
+  margin-bottom: 1.28125em;
 }
 .habilities__list--card {
   display: flex;
@@ -75,16 +75,16 @@
 .habilities__list--card p {
   font-size: 1rem;
   font-family: "Righteous";
-  margin-left: 40px;
+  margin-left: 2.5em;
   transform: translateY(50%);
-  margin-right: 23px;
-  margin-bottom: 28px;
-  width: 100px;
+  margin-right: 1.4375em;
+  margin-bottom: 1.75em;
+  width: 6.25em;
   color: #FFFFFF;
 }
 .habilities__list--card svg {
-  width: 38px;
-  height: 40px;
+  width: 2.375em;
+  height: 2.5em;
 }
 
 .good svg {
@@ -105,42 +105,101 @@
 .projects__title {
   font-size: 2rem;
   font-family: "Tourney";
-  margin-top: 60px;
-  margin-bottom: 58px;
+  margin-top: 1.875em;
+  margin-bottom: -1.15625em;
 }
 .projects__list--card {
-  box-shadow: 10px -9px 6px 8px red;
-  width: 300px;
+  box-shadow: 0.625em -0.5625em 0.375em 0.5em red;
+  width: 18.75em;
   margin: 0 auto;
-  padding-bottom: 23px;
-  margin-bottom: 97px;
+  padding-bottom: 1.4375em;
+  margin-top: 6.0625em;
   word-break: break-word;
 }
 .projects__list--card--title {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: "Righteous";
-  padding-top: 18px;
-  padding-bottom: 24px;
+  padding-top: 0.45em;
+  padding-bottom: 0.6em;
 }
 .projects__list--card--img {
-  width: 251px;
-  height: 137px;
-  margin-bottom: 27px;
+  width: 15.6875em;
+  height: 8.5625em;
+  margin-bottom: 1.6875em;
 }
 .projects__list--card h3 {
   font-size: 1.25rem;
   font-family: "Titillium Web";
-  margin-right: 10px;
+  margin-right: 0.5625em;
 }
 .projects__list--card p, .projects__list--card a {
   margin: 0 auto;
   font-size: 1rem;
   font-family: "Titillium Web";
-  margin-bottom: 9px;
+  margin-bottom: 0.5625em;
   width: 89%;
 }
 .projects__list--card a {
   display: block;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.contact__title {
+  font-size: 2rem;
+  margin-top: 1.5625em;
+  font-family: "Tourney";
+  margin-bottom: 0.78125em;
+}
+.contact__info {
+  display: flex;
+  flex-direction: column;
+}
+.contact__info--button {
+  font-size: 2.25em;
+  font-family: "Righteous";
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0.222em;
+  margin-bottom: 0.69444em;
+  background-color: #FF0000;
+  width: 8.333em;
+  height: 2.333em;
+  cursor: pointer;
+}
+.contact__info--button:hover {
+  transform: scale(1.3);
+}
+.contact__info--email {
+  margin: 0 auto;
+  background-color: #FF0000;
+  width: 18.75em;
+  border-radius: 0.5em;
+}
+.contact__info--email--title {
+  font-size: 1.5rem;
+  font-family: "Righteous";
+  color: #FFFFFF;
+  margin-top: 0.25em;
+  margin-bottom: 0.291666em;
+}
+.contact__info--email--subtitle {
+  font-size: 1rem;
+  font-family: "Righteous";
+  padding-bottom: 0.625em;
+  color: #FFFFFF;
+}
+
+.footer {
+  background-color: #000000;
+  font-size: 1.5rem;
+  color: #A1824A;
+  text-align: center;
+  font-family: "Righteous";
+  padding-top: 1.541666em;
+  padding-bottom: 1.5em;
 }
 
 html,
