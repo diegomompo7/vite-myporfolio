@@ -1,0 +1,21 @@
+.header{
+    background-color: $sixth-color;
+    text-align: center;
+    padding-top: 2.3125em;
+    padding-bottom: 3.1875em;
+
+    &__title{
+        font-size: 2rem;
+        color: $third-color;
+        font-family: "Tourney";
+        margin-top: 1.625em;
+        margin-bottom: 0.84375em;
+    }
+    &__subtitle{
+        color: $third-color;
+        font-family: 'Michroma';
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 3.1875em;
+    }
+}

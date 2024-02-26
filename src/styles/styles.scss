@@ -1,0 +1,18 @@
+@import 'utilities/variables';
+@import 'components/nav';
+@import 'components/header';
+@import 'components/about';
+@import 'components/habilities';
+@import 'components/projects';
+
+
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  min-width: 320px;
+}

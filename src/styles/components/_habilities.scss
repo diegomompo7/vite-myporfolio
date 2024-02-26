@@ -1,0 +1,45 @@
+.habilities{
+    background-color: $sixth-color;
+
+    &__title{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "Tourney";
+        color: $first-color;
+        padding-top: 38px;
+        margin-bottom: 41px;
+    }
+    &__list{
+
+        &--card{
+            display: flex;
+            margin: 0 auto;
+
+            & p {
+                font-size: 1rem;
+                font-family: 'Righteous';
+                margin-left: 40px;
+                transform: translateY((50%));
+                margin-right: 23px;
+                margin-bottom: 28px;
+                width: 100px;
+                color: $first-color;
+            }
+
+            & svg{
+                width: 38px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+.good svg{
+    fill: $fifth-color
+}
+.medium svg{
+    fill: $second-color
+}
+.bad svg{
+    fill: $third-color
+}

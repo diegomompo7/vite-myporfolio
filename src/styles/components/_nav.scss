@@ -1,0 +1,23 @@
+.nav{
+    background-color: $third-color;
+   
+
+    &__menu{
+        display: flex;
+        justify-content: center;
+        margin-left: 4em;
+        padding: 1.2em 0;
+        list-style: none;
+        font-size: 0.625em;
+
+        & li {
+            margin-right: 2.8em;
+        }
+
+        & a {
+            text-decoration: none;
+            color: $sixth-color;
+            font-family: 'Righteous';
+        }
+    }
+}
