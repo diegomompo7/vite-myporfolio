@@ -2,11 +2,12 @@ import hotelMiranda from "../../assets/img/HotelMiranda.png"
 import dashboardHotelMiranda from "../../assets/img/dashboardHotelMiranda.png"
 import appFotos from "../../assets/img/appFotos.png"
 import OxygenShop from "../../assets/img/oxygenShop.png"
+import { FormattedMessage } from "react-intl"
 
 export const Projects = () => {
     return (
         <div id="projects" className="projects">
-            <h1 className="projects__title">PROJECTS</h1>
+            <h1 className="projects__title"><FormattedMessage id="nav:projects"></FormattedMessage></h1>
             <div className="projects__list">
                 <div className="projects__list--card">
                     <h1 className="projects__list--card--title">HOTEL MIRANDA</h1>

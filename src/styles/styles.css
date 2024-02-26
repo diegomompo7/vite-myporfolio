@@ -10,12 +10,25 @@
   font-size: 0.625em;
 }
 .nav__menu li {
-  margin-right: 2.8em;
+  margin-right: 2.4em;
 }
 .nav__menu a {
   text-decoration: none;
   color: #000000;
   font-family: "Righteous";
+}
+.nav__lang {
+  font-family: "Righteous";
+  color: #000000;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 1rem;
+}
+.nav__lang button {
+  background-color: #FF0000;
+  border: none;
+  color: #000000;
+  padding: 8px 8px 8px 8px;
 }
 
 .header {

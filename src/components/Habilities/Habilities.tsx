@@ -1,7 +1,9 @@
+import { FormattedMessage } from "react-intl"
+
 export const Habilities = () => {
     return (
         <div id="habilities" className="habilities">
-            <h1 className="habilities__title">HABILITIES</h1>
+            <h1 className="habilities__title"><FormattedMessage id="nav:habilities"></FormattedMessage></h1>
             <div className="habilities__list">
                 <div className="habilities__list--card good">
                     <p>HTML</p>

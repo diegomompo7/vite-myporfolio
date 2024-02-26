@@ -1,0 +1,12 @@
+
+{
+    "nav:about": "SOBRE MÍ",
+    "nav:habilities": "HABILIDADES",
+    "nav:projects": "PROYECTOS",
+    "nav:contact": "CONTÁCTAME",
+    "header:subtitle": "Desarrollador Full-Stack",
+    "about:description": "Soy un desarrollador full-stack con una actitud positiva, dedicado al aprendizaje continuo. Aporto humor al equipo, fomentando un ambiente positivo mientras ofrezco consistentemente soluciones continuas. Mi experiencia incluye  <strong>HTML, CSS, JavaScript, ReactJS, NodeJS, Python, MySql, MongoDB</strong> y <strong>Django </strong>. Mis habilidades más destacadas se encuentran en la tranquilidad, la paciencia para solucionar problemas y el trabajo en equipo porque estoy liderando un equipo de seis personas.",
+    "projects:languages": "LENGUAJES",
+    "project:website": "LINK DEL PROYECTO",
+    "project:code": "LINK DEL CÓDIGO"
+  }
