@@ -10,17 +10,17 @@ export const Projects = () => {
             <h1 className="projects__title"><FormattedMessage id="nav:projects"></FormattedMessage></h1>
             <div className="projects__list">
                 <div className="projects__list--card">
-                    <h1 className="projects__list--card--title">HOTEL MIRANDA</h1>
+                    <h1 className="projects__list--card--title">Hotel Miranda</h1>
                     <img className="projects__list--card--img" src={hotelMiranda}/>
                     <h3>LANGUAGES: </h3>
                     <p>Html, SCSS, Python, Django</p>
                     <h3>LINK WEBSITE: </h3>
-                    <a href="http://35.180.69.117">http://35.180.69.117/</a>
+                    <a href="http://35.180.69.117">LINK</a>
                     <h3>LINK CODE: </h3>
-                    <a href="https://github.com/diegomompo7/django_HotelMiranda">https://github.com/diegomompo7/django_HotelMiranda</a>
+                    <a href="https://github.com/diegomompo7/django_HotelMiranda">LINK</a>
                 </div>
                 <div className="projects__list--card">
-                    <h1 className="projects__list--card--title">DASHBOARD HOTEL MIRANDA</h1>
+                    <h1 className="projects__list--card--title">Dashboard Hotel Miranda</h1>
                     <img className="projects__list--card--img" src={dashboardHotelMiranda}/>
                     <h3>LANGUAGES: </h3>
                     <p>React, SCSS, TypeScript, NodeJS, Redux</p>
@@ -30,7 +30,7 @@ export const Projects = () => {
                     <a href="https://github.com/diegomompo7/django_HotelMiranda">LINK</a>
                 </div>
                 <div className="projects__list--card">
-                    <h1 className="projects__list--card--title">APP PHOTOS</h1>
+                    <h1 className="projects__list--card--title">App Photos</h1>
                     <img className="projects__list--card--img" src={appFotos}/>
                     <h3>LANGUAGES: </h3>
                     <p>ReactJS, SCSS, JavaScript</p>

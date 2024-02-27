@@ -4,10 +4,20 @@
         font-size: 2rem;
         font-family: "Tourney";
         margin-top: 1.875em;
-        margin-bottom: -1.15625em;;
+        margin-bottom: -1.15625em;
+
+        @include desktop(){
+            font-size: 3.75rem;
+            margin-top: 1em;
+            margin-bottom: 0;
+        }
  
     }
     &__list{
+        @include desktop(){
+            display: flex;
+            flex-wrap: wrap;
+        }
         &--card{
 
             box-shadow: 0.625em -0.5625em 0.375em 0.5em rgba($third-color,1);
@@ -16,6 +26,14 @@
             padding-bottom: 1.4375em;
             margin-top: 6.0625em;
             word-break: break-word;
+            max-width: 33.6875em;
+
+            @include min375(){
+                width: 89%;
+            }
+            @include desktop(){
+                width: 100%;
+            }
             
 
             &--title{
@@ -23,6 +41,8 @@
                 font-family: "Righteous";
                 padding-top: 0.45em;
                 padding-bottom: 0.6em;
+
+                
             }
 
             &--img{
@@ -30,12 +50,21 @@
                 height: 8.5625em;
                 margin-bottom: 1.6875em;
 
+                @include desktop(){
+                    width: 17.625em;
+                    height: 9.625em;
+                }
+
             }
 
                 & h3{
                     font-size: 1.25rem;
                     font-family: "Titillium Web";
                     margin-right: 0.5625em;
+
+                    @include desktop(){
+                        font-size: 1.5rem;
+                    }
                 }
                 & p, a{
                     margin: 0 auto;
@@ -43,6 +72,10 @@
                     font-family: "Titillium Web";
                     margin-bottom: 0.5625em;
                     width: 89%;
+                    
+                    @include desktop(){
+                        font-size: 1.25rem;
+                    }
                 }
                 & a{
                     display:block;

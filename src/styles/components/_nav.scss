@@ -1,5 +1,8 @@
 .nav{
     background-color: $third-color;
+    @include min530(){
+        height: 3.125rem;
+    }
    
 
     &__menu{
@@ -19,12 +22,24 @@
             color: $sixth-color;
             font-family: 'Righteous';
         }
+
+        @include min530(){
+            margin:  0 auto;
+            width: 70%;
+            transform: translateY(-100%);
+
+        }
+        @include desktop(){
+            transform: translateY(-80%);
+            font-size: 1rem;
+        }
+
     }
     &__lang {
         font-family: 'Righteous';
         color: $sixth-color;
         text-align: right;
-        padding-top: 10px;
+        padding-top: 0.625rem;
         padding-right: 1rem;
     
 
@@ -32,7 +47,7 @@
             background-color: $third-color;
             border: none;
             color: $sixth-color;
-            padding: 8px 8px 8px 8px;
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 
         }
     

@@ -1,6 +1,11 @@
 .nav {
   background-color: #FF0000;
 }
+@media screen and (min-width: 33.125rem) {
+  .nav {
+    height: 3.125rem;
+  }
+}
 .nav__menu {
   display: flex;
   justify-content: center;
@@ -17,18 +22,31 @@
   color: #000000;
   font-family: "Righteous";
 }
+@media screen and (min-width: 33.125rem) {
+  .nav__menu {
+    margin: 0 auto;
+    width: 70%;
+    transform: translateY(-100%);
+  }
+}
+@media screen and (min-width: 62.5rem) {
+  .nav__menu {
+    transform: translateY(-80%);
+    font-size: 1rem;
+  }
+}
 .nav__lang {
   font-family: "Righteous";
   color: #000000;
   text-align: right;
-  padding-top: 10px;
+  padding-top: 0.625rem;
   padding-right: 1rem;
 }
 .nav__lang button {
   background-color: #FF0000;
   border: none;
   color: #000000;
-  padding: 8px 8px 8px 8px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .header {
@@ -37,25 +55,55 @@
   padding-top: 2.3125em;
   padding-bottom: 3.1875em;
 }
-.header__title {
+@media screen and (min-width: 62.5rem) {
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+}
+.header__info--title {
   font-size: 2rem;
   color: #FF0000;
   font-family: "Tourney";
   margin-top: 1.625em;
   margin-bottom: 0.84375em;
 }
-.header__subtitle {
+@media screen and (min-width: 62.5rem) {
+  .header__info--title {
+    font-size: 5rem;
+    margin-left: 1.1625em;
+    margin-right: 1.425em;
+    margin-bottom: 0.2875em;
+  }
+}
+.header__info--subtitle {
   color: #FF0000;
   font-family: "Michroma";
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 3.1875em;
 }
+@media screen and (min-width: 62.5rem) {
+  .header__info--subtitle {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 62.5rem) {
+  .header svg {
+    width: 24.625em;
+    height: 25em;
+  }
+}
 
 .about {
   text-align: center;
   margin: 0 auto;
   width: 20.0625rem;
+}
+@media screen and (min-width: 62.5rem) {
+  .about {
+    width: 57.55%;
+  }
 }
 .about__title {
   font-size: 2rem;
@@ -64,10 +112,21 @@
   font-weight: 700;
   margin-bottom: 0.5625em;
 }
+@media screen and (min-width: 62.5rem) {
+  .about__title {
+    font-size: 3.75rem;
+    padding-top: 0.83333em;
+  }
+}
 .about__description {
   font-size: 1rem;
   font-family: "Titillium Web";
   padding-bottom: 1.8125em;
+}
+@media screen and (min-width: 62.5rem) {
+  .about__description {
+    font-size: 1.5rem;
+  }
 }
 
 .habilities {
@@ -81,9 +140,31 @@
   padding-top: 1.1875em;
   margin-bottom: 1.28125em;
 }
+@media screen and (min-width: 62.5rem) {
+  .habilities__title {
+    font-size: 3.75rem;
+    padding-top: 0.46em;
+  }
+}
+.habilities__list {
+  margin: 0 auto;
+}
+@media screen and (min-width: 62.5rem) {
+  .habilities__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 91.3%;
+  }
+}
 .habilities__list--card {
   display: flex;
   margin: 0 auto;
+}
+@media screen and (min-width: 62.5rem) {
+  .habilities__list--card {
+    width: 50%;
+    margin: 0;
+  }
 }
 .habilities__list--card p {
   font-size: 1rem;
@@ -95,9 +176,25 @@
   width: 6.25em;
   color: #FFFFFF;
 }
+@media screen and (min-width: 62.5rem) {
+  .habilities__list--card p {
+    font-size: 2.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0.7em;
+    transform: translateY(40%);
+  }
+}
 .habilities__list--card svg {
-  width: 2.375em;
+  font-size: 1rem;
   height: 2.5em;
+}
+@media screen and (min-width: 62.5rem) {
+  .habilities__list--card svg {
+    width: auto;
+    height: 2.5em;
+    font-size: 2.5rem;
+  }
 }
 
 .good svg {
@@ -121,6 +218,19 @@
   margin-top: 1.875em;
   margin-bottom: -1.15625em;
 }
+@media screen and (min-width: 62.5rem) {
+  .projects__title {
+    font-size: 3.75rem;
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 62.5rem) {
+  .projects__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .projects__list--card {
   box-shadow: 0.625em -0.5625em 0.375em 0.5em red;
   width: 18.75em;
@@ -128,6 +238,17 @@
   padding-bottom: 1.4375em;
   margin-top: 6.0625em;
   word-break: break-word;
+  max-width: 33.6875em;
+}
+@media screen and (min-width: 23.4375rem) and (max-width: 999px) {
+  .projects__list--card {
+    width: 89%;
+  }
+}
+@media screen and (min-width: 62.5rem) {
+  .projects__list--card {
+    width: 100%;
+  }
 }
 .projects__list--card--title {
   font-size: 2.5rem;
@@ -140,10 +261,21 @@
   height: 8.5625em;
   margin-bottom: 1.6875em;
 }
+@media screen and (min-width: 62.5rem) {
+  .projects__list--card--img {
+    width: 17.625em;
+    height: 9.625em;
+  }
+}
 .projects__list--card h3 {
   font-size: 1.25rem;
   font-family: "Titillium Web";
   margin-right: 0.5625em;
+}
+@media screen and (min-width: 62.5rem) {
+  .projects__list--card h3 {
+    font-size: 1.5rem;
+  }
 }
 .projects__list--card p, .projects__list--card a {
   margin: 0 auto;
@@ -151,6 +283,11 @@
   font-family: "Titillium Web";
   margin-bottom: 0.5625em;
   width: 89%;
+}
+@media screen and (min-width: 62.5rem) {
+  .projects__list--card p, .projects__list--card a {
+    font-size: 1.25rem;
+  }
 }
 .projects__list--card a {
   display: block;
@@ -166,9 +303,20 @@
   font-family: "Tourney";
   margin-bottom: 0.78125em;
 }
+@media screen and (min-width: 62.5rem) {
+  .contact__title {
+    font-size: 3.75rem;
+  }
+}
 .contact__info {
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 62.5rem) {
+  .contact__info {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 .contact__info--button {
   font-size: 2.25em;
@@ -190,6 +338,12 @@
   background-color: #FF0000;
   width: 18.75em;
   border-radius: 0.5em;
+  height: 85px;
+}
+@media screen and (min-width: 62.5rem) {
+  .contact__info--email {
+    margin: 0;
+  }
 }
 .contact__info--email--title {
   font-size: 1.5rem;
@@ -213,6 +367,11 @@
   font-family: "Righteous";
   padding-top: 1.541666em;
   padding-bottom: 1.5em;
+}
+@media screen and (min-width: 62.5rem) {
+  .footer {
+    font-size: 2rem;
+  }
 }
 
 html,

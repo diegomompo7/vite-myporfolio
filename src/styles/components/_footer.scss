@@ -6,4 +6,8 @@
     font-family: "Righteous";
     padding-top: 1.541666em;
     padding-bottom: 1.5em;
+
+    @include desktop(){
+        font-size: 2rem;
+    }
 }

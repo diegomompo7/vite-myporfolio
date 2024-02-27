@@ -3,16 +3,29 @@
     margin: 0 auto;
     width: 20.0625rem;
 
+    @include desktop(){
+        width: 57.55%;
+    }
+
     &__title{
         font-size: 2rem;
         padding-top: 1.5625em;
         font-family: "Tourney";
         font-weight: 700;
         margin-bottom: 0.5625em;
+
+        @include desktop(){
+            font-size: 3.75rem;
+            padding-top: 0.83333em;
+        }
     }
     &__description{
         font-size: 1rem;
         font-family: "Titillium Web";
         padding-bottom: 1.8125em;
+
+        @include desktop(){
+            font-size: 1.5rem;
+        }
     }
 }

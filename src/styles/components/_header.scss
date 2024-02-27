@@ -1,21 +1,47 @@
-.header{
-    background-color: $sixth-color;
-    text-align: center;
-    padding-top: 2.3125em;
-    padding-bottom: 3.1875em;
+.header {
+  background-color: $sixth-color;
+  text-align: center;
+  padding-top: 2.3125em;
+  padding-bottom: 3.1875em;
 
-    &__title{
-        font-size: 2rem;
-        color: $third-color;
-        font-family: "Tourney";
-        margin-top: 1.625em;
-        margin-bottom: 0.84375em;
+  @include desktop() {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__info {
+    
+    &--title {
+      font-size: 2rem;
+      color: $third-color;
+      font-family: "Tourney";
+      margin-top: 1.625em;
+      margin-bottom: 0.84375em;
+
+      @include desktop() {
+        font-size: 5rem;
+        margin-left: 1.1625em;
+        margin-right: 1.425em;
+        margin-bottom: 0.2875em;
+      }
     }
-    &__subtitle{
-        color: $third-color;
-        font-family: 'Michroma';
-        font-size: 1rem;
-        font-weight: 400;
-        margin-bottom: 3.1875em;
+    &--subtitle {
+      color: $third-color;
+      font-family: "Michroma";
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 3.1875em;
+
+      @include desktop() {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  & svg{
+    @include desktop(){
+        width: 24.625em;
+        height: 25em;
+        }
     }
 }
