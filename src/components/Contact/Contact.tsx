@@ -2,7 +2,7 @@ import { FormattedMessage } from "react-intl"
 
 export const Contact = () => {
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <h1 className="contact__title"><FormattedMessage id="nav:contact"></FormattedMessage></h1>
             <div className="contact__info">
                 <a href="https://github.com/diegomompo7"><button className="contact__info--button">GITHUB</button></a>
