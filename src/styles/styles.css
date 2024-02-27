@@ -162,8 +162,9 @@
 }
 @media screen and (min-width: 62.5rem) {
   .habilities__list--card {
-    width: 50%;
+    width: 45%;
     margin: 0;
+    margin-right: 45px;
   }
 }
 .habilities__list--card p {
@@ -197,16 +198,28 @@
   }
 }
 
+.good .notExits {
+  fill: #000000;
+}
 .good svg {
   fill: #00FF00;
 }
 
+.medium .notExits {
+  fill: #000000;
+}
 .medium svg {
   fill: #FFFF00;
 }
 
+.bad .notExits {
+  fill: #000000;
+}
 .bad svg {
   fill: #FF0000;
+}
+.bad svg .notExits {
+  fill: #000000;
 }
 
 .projects {
