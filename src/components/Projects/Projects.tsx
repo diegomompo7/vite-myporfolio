@@ -15,7 +15,7 @@ export const Projects = () => {
                     <h3>LANGUAGES: </h3>
                     <p>Html, SCSS, Python, Django</p>
                     <h3>LINK WEBSITE: </h3>
-                    <a href="http://35.180.69.117">LINK</a>
+                    <a href="http://15.188.49.158">LINK</a>
                     <h3>LINK CODE: </h3>
                     <a href="https://github.com/diegomompo7/django_HotelMiranda">LINK</a>
                 </div>
