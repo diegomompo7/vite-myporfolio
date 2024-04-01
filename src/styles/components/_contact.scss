@@ -43,7 +43,8 @@
             background-color: $third-color;
             width: 18.75em;
             border-radius: 0.5em;
-            height: 85px;
+            height: 5.3125em;
+            margin-bottom: 1.5625em;
 
             @include desktop{
                 margin: 0;

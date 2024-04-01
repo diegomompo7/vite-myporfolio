@@ -164,7 +164,7 @@
   .habilities__list--card {
     width: 45%;
     margin: 0;
-    margin-right: 45px;
+    margin-right: 2.8125em;
   }
 }
 .habilities__list--card p {
@@ -351,7 +351,8 @@
   background-color: #FF0000;
   width: 18.75em;
   border-radius: 0.5em;
-  height: 85px;
+  height: 5.3125em;
+  margin-bottom: 1.5625em;
 }
 @media screen and (min-width: 62.5rem) {
   .contact__info--email {

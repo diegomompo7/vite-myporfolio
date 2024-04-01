@@ -1,4 +1,5 @@
 import { FormattedMessage } from "react-intl"
+import pdf from '../../assets/CV Diego Mompó Redoli.pdf';
 
 export const Contact = () => {
     return (
@@ -11,6 +12,7 @@ export const Contact = () => {
                     <p className="contact__info--email--title">EMAIL</p>
                     <p className="contact__info--email--subtitle">diego@diegomompo.com</p>
                 </div>
+                <a href={pdf} target="_blank" rel="noopener noreferrer" download="CV Diego Mompó.pdf"><button className="contact__info--button"><FormattedMessage id="contact:download"></FormattedMessage> CV</button></a>
             </div>
         </div>
     )
